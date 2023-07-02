@@ -1,0 +1,180 @@
+*{
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0; 
+    padding: 0;
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+header h1{
+    text-align: center;
+    color:rgb(0,0,0);
+    
+}
+header a{
+    text-decoration:none;
+}
+
+nav{
+    float: right;
+    display: flex;
+    position: relative;
+    bottom: 108px;
+    margin: 40px;
+}
+
+nav input{
+    border: solid 1px rgb(0,0,0);
+    border-radius:10px;
+    margin: 5px;
+    height: 25px;
+}
+nav a{
+    margin: 5px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: white;
+    text-decoration:underline;
+    transition: 0.5s;
+}
+.teste:hover{
+    color: white;
+}
+.menu{
+    display: none;
+}
+button{
+    border:solid 1px;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: #0095f6;
+}
+nav .menu-responsivo{
+    padding: 7px;
+}
+nav .menu-responsivo div{
+    width: 35px;
+    height: 4px;
+    margin: 3px;
+    background-color: black;
+    display: none;
+    
+}
+main{
+    
+}
+main h2{
+    text-decoration:underline;
+    font-family: sans-serif;
+    margin: 70px;
+    width: 100%;
+}
+
+.conteiner{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.efect:hover{
+    position: relative;
+    bottom:30px;
+    transition: 0.5s;
+}
+.modelos{
+    padding: 35px;
+}
+.modelos img{
+    width: 400px;
+    height: 350px;
+    border-radius:15px;
+}
+.select{
+    display: flex;
+    justify-content: center;
+}
+.select button{
+    height: 45px;
+    width: 200px;
+    background-color: orange;
+}
+.select button b{
+    color:white;
+}
+.select img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 0px;
+    
+}
+
+section .buscar{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+section .buscar button{
+    background-color:#4EA7C4;
+    width: 150px;
+    height: 30px;
+}
+footer{
+background: #F7F8F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#contatos{
+
+}
+footer .meios{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 220px;
+    margin: 50px;
+}
+.formulario h2{
+    text-align: center;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer form input{
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+footer form textarea{
+    width: 400px;
+    margin: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+/*Responsividade*/
+@media(max-width:1389px){
+    .navbar{
+        display:none;
+    }
+}
+
+@media(min-width:1389){
+    .menu-responsivo div{
+        display:block;
+    }
+}
+
+
